@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Redressed&display=swap');
+body {
+    padding:0px;
+    margin:0px;
+    background-color: #eee;
+    font-family: 'Poppins', sans-serif;
+}
+.wrapper {
+    text-align: center;
+    height: 100vh;
+    background:cornsilk;
+    display: block;
+    align-items:center;
+    justify-content: center;
+    padding:100px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+span.typed_text {
+    position: relative;
+}
+
+span.typed_text:after {
+    width: 2px;
+    background: #000;
+    display: inline-block;
+    content: '';
+    top: 0;
+    bottom: 0;
+    right: -6px;
+    position: absolute;
+    animation:blink 0.9s linear infinite
+}
+@keyframes blink{
+    from { opacity: 0;}
+    to { opacity: 1;}
+}
+h2 {
+    font-weight: 900;
+    font-size: 40px;
+    color: #c501b6;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+h3 {
+    font-size: 30px;
+}
+h3 span {
+    background: #c501b6;
+    color: #fff;
+    padding: 0px 10px;
+    border-radius: 10px 0px 10px 0px;
+}
